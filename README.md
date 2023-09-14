@@ -1,7 +1,7 @@
 # NDBuildingRecognition
 
-##Part 1 - Conceptual Design
-##Authors: Anna Muller and Patrick Hsiao
+# Part 1 - Conceptual Design
+# Authors: Anna Muller and Patrick Hsiao
 
 First, our main goal of this project is being able to identify what building an image contains. In order to do this, we have to figure out what the building is. At this point, we don’t have a dataset that contains the buildings we are trying to identify, so that’s our first step. We need to create a dataset of different buildings we need to highlight. Something we have to think about with the buildings are the picture settings: lighting, brightness, scale, weather, background clutter, season, contrast, interior or exterior, etc.. It will be helpful to capture images at different angles and different times of the day, and with different phone cameras. There’s a lot of moving parts and we’ll have to decide what we want to account for and what we don’t want to account for. 
 
