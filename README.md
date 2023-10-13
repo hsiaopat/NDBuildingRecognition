@@ -18,7 +18,7 @@ Algorithms Discussion: 1/2 Patrick, 1/2 Anna
 
 # Part 2 - Data Set
 
-We collected images of 5 images on campus: Lyons Hall, South Dining Hall, Hesburgh Library, the Main Building, and Knott Hall. We collected 100 images of each building, at different angles, captured at different times of the day (morning and evening).
+We collected images of 5 buildings on campus: Lyons Hall, South Dining Hall, Hesburgh Library, the Main Building, and Knott Hall. We collected 100 images of each building, at different angles, captured at different times of the day (morning and evening).
 We plan to split the images three ways for the training set, the validation set, and the training set, evenly dispering both evening and night images. The training set will exhibit diversity so that we can train the model to recognize the buildigns from many different angles and times of day, and the validation set will verify that this is indeed possible. 
 Some of the images show the buildings in their entirety, while some of the images are cut off. The resolution of the samples were all taken on iPhone cameras, and the conditions were relatively clear out (for instance, we avoided taking pictures on days where it was raining very heavily)
 
