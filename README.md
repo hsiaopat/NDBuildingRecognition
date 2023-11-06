@@ -47,3 +47,12 @@ SIFT is also very good at creating a reference database of key features. When re
 SIFT is also used in many fields that span beyond just building recognition. It can be used in more advanced cases, like facial recogntiion, scene recognition, and object tracking - its versatility is very impressive. 
 
 Importantly, open source implementations can easily be accessed. In our case, we were able to access it using the open CV library. The open source nature of this algorithm encourages collaborative improvements, ensuring that the algorithm adapts to evolving requirements.
+
+# Method Illustrations
+Original Image:
+![image](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/50419704-5cd9-472b-b7ba-5cc0cae6704b)
+
+Iamge after identifying key points:
+![image](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/51829564-eb3e-41e6-84ae-5ed816226e86)
+
+
