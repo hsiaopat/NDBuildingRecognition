@@ -27,11 +27,12 @@ Division of Labor:
 
 # Part 3 - Preprocessing and Feature Extraction
 
-List of methods applied for pre-processing and feature extraction:
+**List of methods applied for pre-processing and feature extraction:**
 - convert colored images to grayscale images
 - compute keypoints and descriptors
 - match descriptors across images
 
+**SIFT Justification**
 The SIFT algorithm, or Scale-Invariant Feature Transform, is an algorithm that extracts distinctive features from images, despite any scale, rotation, and lighting chagnes in the images. The SIFT algorithm identifies key points within an image and computes a descriptor for each point. The descriptor can then match and recognize objects in different images.
 
 We believed that SIFT would be the best algorithm to use for our building recognition program because it can work well despite changes in scale and rotation. Many of our images of Notre Dame buildings are taken from different angles, and thus appear to have different sizes and rotations. SIFT is able to detect and describe key features of the building despite these setbacks.
@@ -48,8 +49,8 @@ SIFT is also used in many fields that span beyond just building recognition. It 
 
 Importantly, open source implementations can easily be accessed. In our case, we were able to access it using the open CV library. The open source nature of this algorithm encourages collaborative improvements, ensuring that the algorithm adapts to evolving requirements.
 
-# Method Illustrations
-Original Image:
+**Method Illustrations**
+Original image:
 
 ![image](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/50419704-5cd9-472b-b7ba-5cc0cae6704b)
 
@@ -57,13 +58,17 @@ Image after identifying key points:
 
 ![image](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/a63bbcee-5153-46d8-b762-fd9041106543)
 
-Original Images:
+Original images:
 
 ![image](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/1f0baf12-22be-4b1a-9bac-6c0f16c537b3) ![image](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/d6f712cd-fbe5-44f9-8d31-864a9b544a5e)
 
 Images with key point matching: 
 
 ![image](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/07db31ac-5a99-479f-8c4e-85b085a95057)
+
+**Division of labor**
+1/2 Pre-processing work done by Patrick, 1/2 Pre-processing work done by Anna
+1/2 of write-up done by Patrick, 1/2 write-up done by Anna
 
 
 
