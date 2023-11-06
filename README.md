@@ -51,6 +51,7 @@ SIFT is also used in many fields that span beyond just building recognition. It 
 Importantly, open source implementations can easily be accessed. In our case, we were able to access it using the open CV library. The open source nature of this algorithm encourages collaborative improvements, ensuring that the algorithm adapts to evolving requirements.
 
 **Method Illustrations**
+
 Original image:
 
 ![image](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/50419704-5cd9-472b-b7ba-5cc0cae6704b)
@@ -67,7 +68,7 @@ Images with key point matching:
 
 ![image](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/07db31ac-5a99-479f-8c4e-85b085a95057)
 
-**Division of labor**
+**Division of Labor**
 
 1/2 Pre-processing work done by Patrick, 1/2 Pre-processing work done by Anna
 1/2 of write-up done by Patrick, 1/2 write-up done by Anna
