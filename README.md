@@ -57,5 +57,10 @@ Iamge after identifying key points:
 
 ![image](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/a63bbcee-5153-46d8-b762-fd9041106543)
 
+Original Images:
+![image](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/1f0baf12-22be-4b1a-9bac-6c0f16c537b3) ![image](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/d6f712cd-fbe5-44f9-8d31-864a9b544a5e)
+
+
+
 
 
