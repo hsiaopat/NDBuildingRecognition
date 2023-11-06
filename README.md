@@ -25,7 +25,7 @@ Some of the images show the buildings in their entirety, while some of the image
 Division of Labor:
 1/2 of images were taken by Patrick, 1/2 of images were taken by Anna
 
-#Part 3 - Preprocessing and Feature Extraction
+# Part 3 - Preprocessing and Feature Extraction
 
 List of methods applied for pre-processing and feature extraction:
 - convert colored images to grayscale images
