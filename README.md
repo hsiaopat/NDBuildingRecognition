@@ -68,6 +68,22 @@ Images with key point matching:
 
 ![image](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/07db31ac-5a99-479f-8c4e-85b085a95057)
 
+Now that we have the pre-processing dealt with, we can now employ different techniques utilizing this data that we have to actually implement the classification. We have discussed various models and strategies to use with our pre-processed data and some of our research is highlighted below:
+
+Deep Learning:
+One of our approaches involves leveraging deep learning models for image classification. Deep neural networks, especially Convolutional Neural Networks (CNNs), have demonstrated remarkable performance in image-related tasks. By feeding the SIFT features or the pre-processed images directly into the neural network, we can harness the power of hierarchical feature learning. Fine-tuning a pre-trained model on our specific dataset is an option, which can be particularly beneficial when dealing with limited data.
+
+Bag of Visual Words (BoVW):
+We could utilize the Bag of Visual Words model. This involves converting the SIFT key points into a visual vocabulary by clustering them into visual words. Each image is then represented as a histogram of these visual words. This method, rooted in traditional computer vision techniques, is robust and can be effective for classification tasks. It provides a structured way to capture the spatial distribution of key features in the images.
+
+Support Vector Machines (SVMs):
+SVMs offer a classical machine learning approach for image classification. The SIFT features, transformed into feature vectors, can be used to train an SVM classifier. SVMs are particularly suitable for scenarios where the number of features is not excessively large compared to the number of samples. With proper hyperparameter tuning, SVMs can effectively delineate decision boundaries in feature space, aiding in the classification of different types of building images.
+
+Ensemble Approach:
+Recognizing the potential strengths of each individual technique, we will explore the possibility of creating an ensemble model. This involves combining the predictions from different models, such as deep learning, BoVW, and SVMs. Ensemble methods often lead to improved overall performance by mitigating the weaknesses of individual models and leveraging their collective strengths. By aggregating these diverse approaches, we aim to enhance the robustness and generalization capability of our final classification model.
+
+This approach allows for a comprehensive exploration of various techniques, ensuring a thorough understanding of their individual strengths and weaknesses. The subsequent aggregation of results will enable us to determine the most effective model for our specific use case, striking a balance between accuracy, interpretability, and computational efficiency.
+
 **Division of Labor**
 
 1/2 Pre-processing work done by Patrick, 1/2 Pre-processing work done by Anna
