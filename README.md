@@ -24,3 +24,26 @@ Some of the images show the buildings in their entirety, while some of the image
 
 Division of Labor:
 1/2 of images were taken by Patrick, 1/2 of images were taken by Anna
+
+#Part 3 - Preprocessing and Feature Extraction
+
+List of methods applied for pre-processing and feature extraction:
+- convert colored images to grayscale images
+- compute keypoints and descriptors
+- match descriptors across images
+
+The SIFT algorithm, or Scale-Invariant Feature Transform, is an algorithm that extracts distinctive features from images, despite any scale, rotation, and lighting chagnes in the images. The SIFT algorithm identifies key points within an image and computes a descriptor for each point. The descriptor can then match and recognize objects in different images.
+
+We believed that SIFT would be the best algorithm to use for our building recognition program because it can work well despite changes in scale and rotation. Many of our images of Notre Dame buildings are taken from different angles, and thus appear to have different sizes and rotations. SIFT is able to detect and describe key features of the building despite these setbacks.
+
+In addition, SIFT is very good at distinctive feature extraction. Many of the buildings that we photographed have very distinct architectural features (such as the Dome, the arch in Lyons Hall, and the windows in South dining hall). We wanted to leverage SIFT's ability to extract these distinct features so that we can most effectively identify these buildings.
+
+SIFT also performs very well despite changes in lighting. Half of our data set was taken in the morning, and half was taken in the afternoon. Therefore, the lighing in the data set varies greatly. However, SIFT focuses on the structure of the image rather than the value of the pixels, so the performance of the algorithm is not greatly affected by this. 
+
+Also, many of the building images in our data set do not capture the building entirely. Some of our images are blocked by trees and pedestrians, and in some images the photographer simply did not include the entire building in the shot. However, SIFT is very good at handling partial views, as it can match the key features that are visible even when other key features are hidden.
+
+SIFT is also very good at creating a reference database of key features. When recognizing an unknown building, SIFT can easily generate distinctive descriptors, and match those descriptors to the most similar descriptors in the database. SIFT is also very scalable. Although the dataset is currently relatively small, if we ever wanted to expand it in the future, SIFT would make it easy to do so.
+
+SIFT is also used in many fields that span beyond just building recognition. It can be used in more advanced cases, like facial recogntiion, scene recognition, and object tracking - its versatility is very impressive. 
+
+Importantly, open source implementations can easily be accessed. In our case, we were able to access it using the open CV library. The open source nature of this algorithm encourages collaborative improvements, ensuring that the algorithm adapts to evolving requirements.
