@@ -50,9 +50,11 @@ Importantly, open source implementations can easily be accessed. In our case, we
 
 # Method Illustrations
 Original Image:
+
 ![image](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/50419704-5cd9-472b-b7ba-5cc0cae6704b)
 
 Iamge after identifying key points:
+
 ![image](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/a63bbcee-5153-46d8-b762-fd9041106543)
 
 
