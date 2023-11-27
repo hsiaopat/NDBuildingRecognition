@@ -92,6 +92,13 @@ This approach allows for a comprehensive exploration of various techniques, ensu
 # Part 4 - Classification
 
 **Choice of Classifier**
+To classify our data, we used Kullback-Leibler (KL) divergence. We have already created a labled dataset in which each instance is a different building on campus. We then computed the probability distribution of features relevant to each building in the training dataset. Then, we used KL divergence to measure the dissimilarity between the feature distributions of different buildings on campus. We were then able to validate the perforamnce of KL divergence-based classifier using the validation set.
+
+KL Divergence was a good choice for this specific project because it is very well-suited for capturing dissimilarities in feature distributions, which helps differentiate each building by any unique features that the buildings may have. 
+
+In addition, by treating the features as probabilities, we are able to measure the divergence between the expected and observed feawtur distributions for different buildings to get an accurate read on how confident our model is about its selections.
+
+In addition, KL divergence can be incorprated into many different classification methods, giving us flexibility to change around our classification method in case we were not able to attain a satisfactory classiication of our buildings.
 
 **Classification Accuracy**
 
