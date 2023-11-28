@@ -109,7 +109,8 @@ Validation Subset Classification Accuracy: 25%
 **Commentary**
 
 Our accuracy was lower than we anticipated. Reasons for this include images in the training set that do not have enough connectivity.
-For example, the below 
+For example, the below images are both images of Hesburgh Library. However, they look as though they could be completely different buildings. For the final sprint, we will refine the images that we use and possibly take new ones if necessary.
+
 ![IMG_8408 Small](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/63eaf917-f493-4dc7-a121-cc7dfcb97745) ![IMG_8402 Small](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/bb5aff9c-a009-47f4-95e9-3f9542dc47b2)
 
 
