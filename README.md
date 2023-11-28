@@ -94,7 +94,7 @@ Note: Used late token extension
 
 **Choice of Classifier**
 
-To classify our data, we used Kullback-Leibler (KL) divergence. We have already created a labled dataset in which each instance is a different building on campus. We then computed the probability distribution of features relevant to each building in the training dataset. Then, we used KL divergence to measure the dissimilarity between the feature distributions of different buildings on campus. We were then able to validate the perforamnce of KL divergence-based classifier using the validation set.
+To classify our data, we used Kullback-Leibler (KL) divergence. We have already created a labeled dataset in which each instance is a different building on campus. We then computed the probability distribution of features relevant to each building in the training dataset. Then, we used KL divergence to measure the dissimilarity between the feature distributions of different buildings on campus. We were then able to validate the perforamnce of KL divergence-based classifier using the validation set.
 
 KL Divergence was a good choice for this specific project because it is very well-suited for capturing dissimilarities in feature distributions, which helps differentiate each building by any unique features that the buildings may have. 
 
@@ -117,9 +117,9 @@ For example, the below images are both images of Hesburgh Library. However, they
 In addition, another factor that contributes this is similar architecture between different buildings. Buildings at the University of Notre Dame follow a similar theme, and thus there are higher chances of certain architectural features getting mistaken for other buildings.
 
 In addition, we are considering changing our KL divergence classification method completely, and using a neural network instead of KL divergence. Specifically, we will use a convolutional neural network. The input layer will match the size of the normalized SIFT feature vectors, then hidden layer will contain activation functions that will learn the building patterns in the image dataset, and the output layer will have 5 neurons, one neuron for each building in our dataset. We will use another activation function to get the probability scores for each building class.
+We would  train the neural network by spliting our dataset into training and validation sets. We will use the SIFT feature vectors as inputs and the building labels as the outputs, and adjust and test to see what parameters need for fine-tuning.
 
-We will train the neural network by spliting our dataset into training and validation sets. We will use the SIFT feature vectors as inputs and the building labels as the outputs, and adjust and test to see what parameters need for fine-tuning.
-
+To further discuss our plan going forward, we have planned a meeting with Professor Czajka to go over our KL divergence to make sure that we are implementing KL divergence and calculating our classification accuracy correctly. We can then assess if it is necessary to make very large changes with our dataset or to change our classification method to a convolutional neural network.
 
 **Division of Labor**
 
