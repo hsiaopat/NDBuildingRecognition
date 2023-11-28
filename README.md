@@ -91,6 +91,7 @@ This approach allows for a comprehensive exploration of various techniques, ensu
 
 # Part 4 - Classification
 Note: Used late token extension
+
 **Choice of Classifier**
 
 To classify our data, we used Kullback-Leibler (KL) divergence. We have already created a labled dataset in which each instance is a different building on campus. We then computed the probability distribution of features relevant to each building in the training dataset. Then, we used KL divergence to measure the dissimilarity between the feature distributions of different buildings on campus. We were then able to validate the perforamnce of KL divergence-based classifier using the validation set.
@@ -113,7 +114,11 @@ For example, the below images are both images of Hesburgh Library. However, they
 
 ![IMG_8408 Small](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/63eaf917-f493-4dc7-a121-cc7dfcb97745) ![IMG_8402 Small](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/bb5aff9c-a009-47f4-95e9-3f9542dc47b2)
 
+In addition, another factor that contributes this is similar architecture between different buildings. Buildings at the University of Notre Dame follow a similar theme, and thus there are higher chances of certain architectural features getting mistaken for other buildings.
 
+In addition, we are considering changing our KL divergence classification method completely, and using a neural network instead of KL divergence. Specifically, we will use a convolutional neural network. The input layer will match the size of the normalized SIFT feature vectors, then hidden layer will contain activation functions that will learn the building patterns in the image dataset, and the output layer will have 5 neurons, one neuron for each building in our dataset. We will use another activation function to get the probability scores for each building class.
+
+We will train the neural network by spliting our dataset into training and validation sets. We will use the SIFT feature vectors as inputs and the building labels as the outputs, and adjust and test to see what parameters need for fine-tuning.
 
 
 **Division of Labor**
