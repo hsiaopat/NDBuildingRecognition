@@ -105,6 +105,7 @@ In addition, KL divergence can be incorprated into many different classification
 **Classification Accuracy**
 
 Training Subset Classification Accuracy: 15%
+
 Validation Subset Classification Accuracy: 25%
 
 **Commentary**
