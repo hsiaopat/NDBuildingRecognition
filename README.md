@@ -125,6 +125,7 @@ To further discuss our plan going forward, we have planned a meeting with Profes
 **Division of Labor**
 
 1/2 Classification work done by Patrick, 1/2 Classification work done by Anna
+
 1/2 of write-up done by Patrick, 1/2 write-up done by Anna
 
 
