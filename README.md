@@ -134,8 +134,10 @@ To further discuss our plan going forward, we have planned a meeting with Profes
 # Part 5 - Final Report
 
 **Description of Test Database**
+Our test database is very small - 20 images total. There will be 3 "unknown" images of each building for 15 building photos total (these images were taken very recently for testing purposes, and were not used in any previous parts of the project). In addition to the building photos, we have included 10 random images to the test database that are not of any of the buildings that we have categorized, in order to test the model's reaction to images it has not been trained to recognize.
 
 **Classification Accuracy of Test Set**
+The classification accuracy of the test set is 
 
 **Error Rate Analysis**
 
