@@ -127,6 +127,7 @@ To further discuss our plan going forward, we have planned a meeting with Profes
 **Division of Labor**
 
 1/2 Classification work done by Patrick, 1/2 Classification work done by Anna
+
 1/2 of write-up done by Patrick, 1/2 write-up done by Anna
 
 # Part 5 - Final Report
@@ -142,6 +143,7 @@ Most of you should see worse results on the test set when compared to the result
 **Division of Labor**
 
 1/2 Adjusting classification code done by Patrick, 1/2 Adjusting classification code done by Anna
+
 1/2 of write-up done by Patrick, 1/2 write-up done by Anna
 
 
