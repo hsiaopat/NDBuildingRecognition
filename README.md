@@ -127,9 +127,22 @@ To further discuss our plan going forward, we have planned a meeting with Profes
 **Division of Labor**
 
 1/2 Classification work done by Patrick, 1/2 Classification work done by Anna
-
 1/2 of write-up done by Patrick, 1/2 write-up done by Anna
 
+# Part 5 - Final Report
+
+**Description of Test Database**
+
+**Classification Accuracy of Test Set**
+
+**Error Rate Analysis**
+
+Most of you should see worse results on the test set when compared to the results obtained on train/validation sets. You should not be worried about that, but please provide the reasons why your solution performs worse (with a few illustrations, such as pictures or videos, what went wrong). What improvements would you propose to lower the observed error rates?
+
+**Division of Labor**
+
+1/2 Adjusting classification code done by Patrick, 1/2 Adjusting classification code done by Anna
+1/2 of write-up done by Patrick, 1/2 write-up done by Anna
 
 
 
