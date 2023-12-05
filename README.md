@@ -87,6 +87,7 @@ This approach allows for a comprehensive exploration of various techniques, ensu
 **Division of Labor**
 
 1/2 Pre-processing work done by Patrick, 1/2 Pre-processing work done by Anna
+
 1/2 of write-up done by Patrick, 1/2 write-up done by Anna
 
 # Part 4 - Classification
