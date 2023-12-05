@@ -133,11 +133,16 @@ To further discuss our plan going forward, we have planned a meeting with Profes
 
 # Part 5 - Final Report
 
+**Project Updates from Part 4**
+
+After meeting with Professor Czajka, we realized that using KL Divergence to classify our models was more trouble than it was worth, and was causing our project to perform very inaccurately. Instead of using KL divergence, we opted to classify our images using the scores that we received from our SIFT feature extraction. When using SIFT, we were able to identify keypoints on each image, and compare those keypoints with the other images in the dataset. We can take the score of each of these keypoint matches and calculate the mean score against images frome each building. The building corresponding to the highest keypoint mean score is the building that the image will be classified as. We decided to use this method because the mean data is a much easier metric to work with than histograms would be. In addition, the SIFT keypoint scores build very nicely on top of the pre-processing and feature extraction steps that we have already completed, whereas the KL divergence method does not nicely match the work that we have already done on our dataset.
+
 **Description of Test Database**
 
 Our test database is very small - 20 images total. There will be 3 "unknown" images of each building for 15 building photos total (these images were taken very recently for testing purposes, and were not used in any previous parts of the project). In addition to the building photos, we have included 10 random images to the test database that are not of any of the buildings that we have categorized, in order to test the model's reaction to images it has not been trained to recognize.
 
 **Classification Accuracy of Test Set**
+
 The classification accuracy of the test set is 
 
 **Error Rate Analysis**
