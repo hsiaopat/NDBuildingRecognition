@@ -169,7 +169,11 @@ In addition, there were external factors that obscured the view of some of the b
 ![IMG_6101 Small](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/85e91b9c-bcef-4a96-8635-326f6c65204f)
 
 
-Also, some of the iamges had to be retaken at a later point in the project, when the weather was much different - this meant that the leaves on the trees had fallen, and there was much less light on the building photos.
+Also, some of the iamges had to be retaken at a later point in the project, when the weather was much different - this meant that the leaves on the trees had fallen, and there was much less light on the building photos due to permacloud.
+
+![IMG_6093 Small](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/efcac3f8-bddb-4e05-a9fc-b0aaf55d0bcb) ![IMG_8528 Small](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/b551a6fd-dc37-4a14-ae0a-f29f1d3fb2bc)
+
+
 
 In order to lower the observed error rates, we would try to be more consistent with taking our photos. On the other hand, we could go the opposite way and make our database more robust to include many diverse conditions of the photos and a wider distribution of angles of the buildings.
 
