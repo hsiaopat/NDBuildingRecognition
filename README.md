@@ -147,7 +147,7 @@ Validation Subset Classification Accuracy: 100%
 
 _New Commentary_
 
-
+After making the changes that Professor Czajka suggested, our training subset classification accuracy and our validation subset classification was much, much higher. 
 
 **Description of Test Database**
 
@@ -159,9 +159,14 @@ The classification accuracy of the test set is
 
 **Error Rate Analysis**
 
-The error rate on the test set is higher than the error rates of 0% on the training and validation sets. There are several reasons for this. For one, the building images were taken in different weather conditions. In addition, because we are dealing with three images, the distribution of images may play a part in determining whether a building will be classified correctly. In addition, there were external factors that obscured the view of some of the buildings, including trees and pedestrians. Also, some of the iamges had to be retaken at a later point in the project, when the weather was much different - this meant that the trees had fallen, and there was much less light on the building photos.
+The error rate on the test set is higher than the error rates of 0% on the training and validation sets. There are several reasons for this. For one, the building images were taken in different weather conditions. In addition, because we are dealing with three dimensional images, the distribution of the angles of the images may play a part in determining whether a building will be classified correctly. For example, the below images are of the same building, but of two very different angles.
 
-Most of you should see worse results on the test set when compared to the results obtained on train/validation sets. You should not be worried about that, but please provide the reasons why your solution performs worse (with a few illustrations, such as pictures or videos, what went wrong). What improvements would you propose to lower the observed error rates?
+![IMG_6108 Small](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/d51f8ac0-3f30-4ca5-a124-002c6a6c6c28) ![IMG_6107 Small](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/5aef32f2-7421-450e-ac50-f8a9bb1a76da)
+
+
+In addition, there were external factors that obscured the view of some of the buildings, including trees and pedestrians. Also, some of the iamges had to be retaken at a later point in the project, when the weather was much different - this meant that the leaves on the trees had fallen, and there was much less light on the building photos.
+
+In order to lower the observed error rates, we would try to be more consistent with taking our photos. On the other hand, we could go the opposite way and make our database more robust to include many diverse conditions of the photos and a wider distribution of angles of the buildings.
 
 **Division of Labor**
 
