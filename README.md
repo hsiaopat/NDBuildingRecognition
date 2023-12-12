@@ -164,7 +164,12 @@ The error rate on the test set is higher than the error rates of 0% on the train
 ![IMG_6108 Small](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/d51f8ac0-3f30-4ca5-a124-002c6a6c6c28) ![IMG_6107 Small](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/5aef32f2-7421-450e-ac50-f8a9bb1a76da)
 
 
-In addition, there were external factors that obscured the view of some of the buildings, including trees and pedestrians. Also, some of the iamges had to be retaken at a later point in the project, when the weather was much different - this meant that the leaves on the trees had fallen, and there was much less light on the building photos.
+In addition, there were external factors that obscured the view of some of the buildings, including trees and pedestrians. The below image exhibits an image obstructed by trees.
+
+![IMG_6101 Small](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/85e91b9c-bcef-4a96-8635-326f6c65204f)
+
+
+Also, some of the iamges had to be retaken at a later point in the project, when the weather was much different - this meant that the leaves on the trees had fallen, and there was much less light on the building photos.
 
 In order to lower the observed error rates, we would try to be more consistent with taking our photos. On the other hand, we could go the opposite way and make our database more robust to include many diverse conditions of the photos and a wider distribution of angles of the buildings.
 
