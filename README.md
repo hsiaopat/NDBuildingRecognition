@@ -169,12 +169,12 @@ In addition, there were external factors that obscured the view of some of the b
 ![IMG_6101 Small](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/85e91b9c-bcef-4a96-8635-326f6c65204f)
 
 
-Also, some of the iamges had to be retaken at a later point in the project, when the weather was much different - this meant that the leaves on the trees had fallen, and there was much less light on the building photos due to permacloud.
+Also, some of the iamges had to be retaken at a later point in the project, when the weather was much different - this meant that the leaves on the trees had fallen, and there was much less light on the building photos due to permacloud. For example, the first image of the golden dome was taken in early October, while the second image was taken in December. There is a stark difference in the environment of the image.
 
 ![IMG_8529 Small](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/b5346b48-c6a4-4d57-b28e-cf96f3527365)
  ![IMG_6093 Small](https://github.com/hsiaopat/NDBuildingRecognition/assets/97554902/efcac3f8-bddb-4e05-a9fc-b0aaf55d0bcb)
 
-In order to lower the observed error rates, we would try to be more consistent with taking our photos. On the other hand, we could go the opposite way and make our database more robust to include many diverse conditions of the photos and a wider distribution of angles of the buildings.
+In order to lower the observed error rates, we would try to be more consistent with taking our photos and testing our photos under similar conditions. On the other hand, we could go the opposite way and make our database more robust to include many diverse conditions of the photos and a wider distribution of angles of the buildings, so that the classifier would perform very well despite a variance in the conditions.
 
 **Division of Labor**
 
