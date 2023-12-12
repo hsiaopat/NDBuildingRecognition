@@ -148,6 +148,15 @@ Validation Subset Classification Accuracy: 100%
 _New Commentary_
 
 After making the changes that Professor Czajka suggested, our training subset classification accuracy and our validation subset classification was much, much higher. 
+In order to determine the k to use in the cv2.knnMatch, we used a ratio of the matches in the classification accuracy for each image. In the key tuple, the first element is which building the sample got tested on and the second number is k. The accuracy ratios were as follows:
+
+{(1, 2): 0.5685234305923961, (2, 2): 0.20424403183023873, (3, 2): 0.22723253757736517,
+
+(1, 5): 0.4029892056462773, (2, 5): 0.3039025740381954, (3, 5): 0.29310822031552725,
+
+(1, 10): 0.3664249860568879, (2, 10): 0.3174846625766871, (3, 10): 0.316090351366425}
+
+Because having k=2 resulted in the highest ratio, we chose k to be 2.
 
 **Description of Test Database**
 
@@ -155,7 +164,7 @@ Our test database is very small - 35 images total. There will be 5 "unknown" ima
 
 **Classification Accuracy of Test Set**
 
-The classification accuracy of the test set is 
+The classification accuracy of the test set is 79.41%
 
 **Error Rate Analysis**
 
